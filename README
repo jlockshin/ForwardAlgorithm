@@ -1,0 +1,21 @@
+Jane Lockshin
+CSCI 598A: Bioinformatics
+Homework 4
+
+Running forward.py:
+
+From the commandline, navigate to the directory where forward.py is located.
+
+Run the program with the following arguments on the commandline:
+
+'python forward.py -n <number of regular states> -s <sequence> -e (emission_file) -t <transition_file>''
+
+Where:
+-n is an integer (number of regular, non-silent states)
+-s is a sequence of A, C, G, T
+-e is a txt file with emission probabilities
+-t is a txt file with transition probabilities (it is assumed that 0 is the begin state and n + 1 is the end state)
+
+Example input:
+python forward.py -n 2 -s TAGA -e emission_file.txt -t transition_file.txt
+
